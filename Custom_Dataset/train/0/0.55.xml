@@ -1,0 +1,26 @@
+<annotation>
+	<folder>0</folder>
+	<filename>0.55.jpg</filename>
+	<path>C:\Users\user\OneDrive\Desktop\Dataset\images\0\0.55.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>416</width>
+		<height>416</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>0</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>209</xmin>
+			<ymin>231</ymin>
+			<xmax>264</xmax>
+			<ymax>310</ymax>
+		</bndbox>
+	</object>
+</annotation>

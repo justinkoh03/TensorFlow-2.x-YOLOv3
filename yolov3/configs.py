@@ -24,7 +24,7 @@ YOLO_STRIDES                = [8, 16, 32]
 YOLO_IOU_LOSS_THRESH        = 0.5
 YOLO_ANCHOR_PER_SCALE       = 3
 YOLO_MAX_BBOX_PER_SCALE     = 100
-YOLO_INPUT_SIZE             = 416
+YOLO_INPUT_SIZE             = 416#320
 if YOLO_TYPE                == "yolov4":
     YOLO_ANCHORS            = [[[12,  16], [19,   36], [40,   28]],
                                [[36,  75], [76,   55], [72,  146]],
@@ -34,11 +34,13 @@ if YOLO_TYPE                == "yolov3":
                                [[30,  61], [62,   45], [59,  119]],
                                [[116, 90], [156, 198], [373, 326]]]
 # Train options
-TRAIN_YOLO_TINY             = False
+TRAIN_YOLO_TINY             = True#False
 TRAIN_SAVE_BEST_ONLY        = True # saves only best model according validation loss (True recommended)
 TRAIN_SAVE_CHECKPOINT       = False # saves all best validated checkpoints in training process (may require a lot disk space) (False recommended)
-TRAIN_CLASSES               = "mnist/mnist.names"
-TRAIN_ANNOT_PATH            = "mnist/mnist_train.txt"
+#TRAIN_CLASSES               = "mnist/mnist.names"
+TRAIN_CLASSES               = "model_data/image_recognition.txt"
+#TRAIN_ANNOT_PATH            = "mnist/mnist_train.txt"
+TRAIN_ANNOT_PATH            = "model_data/image_recognition_train.txt"
 TRAIN_LOGDIR                = "log"
 TRAIN_CHECKPOINTS_FOLDER    = "checkpoints"
 TRAIN_MODEL_NAME            = f"{YOLO_TYPE}_custom"
@@ -54,7 +56,8 @@ TRAIN_WARMUP_EPOCHS         = 2
 TRAIN_EPOCHS                = 100
 
 # TEST options
-TEST_ANNOT_PATH             = "mnist/mnist_test.txt"
+#TEST_ANNOT_PATH             = "mnist/mnist_test.txt"
+TEST_ANNOT_PATH             = "model_data/image_recognition_test.txt"
 TEST_BATCH_SIZE             = 4
 TEST_INPUT_SIZE             = 416
 TEST_DATA_AUG               = False

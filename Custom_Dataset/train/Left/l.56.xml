@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Left</folder>
+	<filename>l.56.jpg</filename>
+	<path>C:\Users\user\OneDrive\Desktop\TensorFlow-2.x-YOLOv3\IMAGES\images\Left\l.56.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>416</width>
+		<height>416</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>id_4</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>185</xmin>
+			<ymin>134</ymin>
+			<xmax>234</xmax>
+			<ymax>199</ymax>
+		</bndbox>
+	</object>
+</annotation>

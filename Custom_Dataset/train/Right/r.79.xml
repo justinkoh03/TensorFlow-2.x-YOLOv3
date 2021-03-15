@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Right</folder>
+	<filename>r.79.jpg</filename>
+	<path>C:\Users\user\OneDrive\Desktop\TensorFlow-2.x-YOLOv3\IMAGES\images\Right\r.79.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>416</width>
+		<height>416</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>id_3</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>150</xmin>
+			<ymin>112</ymin>
+			<xmax>214</xmax>
+			<ymax>201</ymax>
+		</bndbox>
+	</object>
+</annotation>

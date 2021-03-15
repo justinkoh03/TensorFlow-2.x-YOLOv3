@@ -1,0 +1,26 @@
+<annotation>
+	<folder>8</folder>
+	<filename>8.65.jpg</filename>
+	<path>C:\Users\user\OneDrive\Desktop\TensorFlow-2.x-YOLOv3\IMAGES\images\8\8.65.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>416</width>
+		<height>416</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>id_8</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>157</xmin>
+			<ymin>101</ymin>
+			<xmax>205</xmax>
+			<ymax>170</ymax>
+		</bndbox>
+	</object>
+</annotation>

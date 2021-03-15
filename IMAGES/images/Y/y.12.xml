@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Y</folder>
+	<filename>y.12.jpg</filename>
+	<path>C:\Users\user\OneDrive\Desktop\TensorFlow-2.x-YOLOv3\IMAGES\images\Y\y.12.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>416</width>
+		<height>416</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>id_14</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>147</xmin>
+			<ymin>92</ymin>
+			<xmax>200</xmax>
+			<ymax>162</ymax>
+		</bndbox>
+	</object>
+</annotation>

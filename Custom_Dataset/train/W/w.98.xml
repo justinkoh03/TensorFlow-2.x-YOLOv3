@@ -1,0 +1,26 @@
+<annotation>
+	<folder>W</folder>
+	<filename>w.98.jpg</filename>
+	<path>C:\Users\user\OneDrive\Desktop\TensorFlow-2.x-YOLOv3\IMAGES\images\W\w.98.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>416</width>
+		<height>416</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>id_12</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>130</xmin>
+			<ymin>118</ymin>
+			<xmax>182</xmax>
+			<ymax>190</ymax>
+		</bndbox>
+	</object>
+</annotation>

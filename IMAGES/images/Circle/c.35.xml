@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Circle</folder>
+	<filename>c.35.jpg</filename>
+	<path>C:\Users\user\OneDrive\Desktop\TensorFlow-2.x-YOLOv3\IMAGES\images\Circle\c.35.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>416</width>
+		<height>416</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>id_5</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>205</xmin>
+			<ymin>173</ymin>
+			<xmax>256</xmax>
+			<ymax>251</ymax>
+		</bndbox>
+	</object>
+</annotation>
